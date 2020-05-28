@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="javadoc-banner_8h" kind="file"><name>javadoc-banner.h</name>
+    <member refid="javadoc-banner_8h_1a6ec4bf0132201719721e103451590a9e" kind="function"><name>cstyle</name></member>
+    <member refid="javadoc-banner_8h_1a62d4ceb96f5b5b75450244869482de68" kind="function"><name>javadocBanner</name></member>
+    <member refid="javadoc-banner_8h_1a7acf20d2740fdb0d6086abf738c8688f" kind="function"><name>doxygenBanner</name></member>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>
