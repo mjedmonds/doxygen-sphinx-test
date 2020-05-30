@@ -1,0 +1,4 @@
+docs/_build
+docs/doxyoutput
+docs/cpp_api
+docs/py_api
