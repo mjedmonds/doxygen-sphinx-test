@@ -1,3 +1,0 @@
-[submodule "docs_cpp"]
-	path = docs_cpp
-	url = git@github.com:mjedmonds/doxygen-test-cpp.git
