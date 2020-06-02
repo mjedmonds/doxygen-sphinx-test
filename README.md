@@ -9,7 +9,7 @@ We basically just need to follow the following:
 
 Exhale sets up Sphinx to call Doxygen to deploy to readthedocs.
 
-## Proposed format:
+## Proposed format
 
 The key part is the second `*` on the first line. This is what tells Doxygen this is a docstring. There are other formats, but this one is easy. If you have a strong opinion, let me know
 
