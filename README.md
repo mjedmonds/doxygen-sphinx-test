@@ -38,6 +38,3 @@ and fill out the prompts.  Then, modify the `conf.py` according to what Exhale a
 
 Finally, you can make the docstrings by calling `make html` in the docs folder. Sphinx created a `makefile` when we executed `sphinx-quickstart`.
 
-## Example
-
-This repo is an example. I didn't gitignore anything, so you can navigate around the `docs` folder to see what it outputted. Open [docs/_build/html/index.html](docs/_build/html/index.html) to see the output - it's readthedocs but with C++!
