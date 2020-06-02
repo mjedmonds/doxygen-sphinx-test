@@ -1,5 +1,7 @@
 # doxygen - readthedocs test
 
+[![Documentation Status](https://readthedocs.org/projects/doxygen-sphinx-test/badge/?version=latest)](https://doxygen-sphinx-test.readthedocs.io/?badge=latest)
+
 Motivation: have documentation build for both C/C++ and Python in one documentation set. To do this, we'll use Doxygen and Sphinx.
 
 We basically just need to follow the following:
@@ -37,4 +39,3 @@ sphinx-quickstart
 and fill out the prompts.  Then, modify the `conf.py` according to what Exhale asks for, add the `requirements.txt`, and update `index.rst`
 
 Finally, you can make the docstrings by calling `make html` in the docs folder. Sphinx created a `makefile` when we executed `sphinx-quickstart`.
-
