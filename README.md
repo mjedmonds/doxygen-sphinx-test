@@ -1,4 +1,4 @@
-# doxygen - readthedocs test
+# doxygen + sphinx + readthedocs - C++ + Python test
 
 [![Documentation Status](https://readthedocs.org/projects/doxygen-sphinx-test/badge/?version=latest)](https://doxygen-sphinx-test.readthedocs.io/?badge=latest)
 
