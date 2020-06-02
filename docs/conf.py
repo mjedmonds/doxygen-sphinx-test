@@ -12,6 +12,8 @@
 #
 import os
 import sys
+
+import sphinx_rtd_theme
 sys.path.insert(0, os.path.abspath('../src'))
 
 
@@ -96,12 +98,6 @@ autoapi_root = "py_api"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-import os
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-import sphinx_rtd_theme
+# set theme
 html_theme = 'sphinx_rtd_theme'
-
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
